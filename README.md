@@ -23,3 +23,9 @@ Please note that we install all the file related to the library under the local 
 ## Test programs
 
 * [match1](src/match1.c): simple match with capturing parentheses.
+* [positive look ahead](src/positive-look-ahead.c)
+* [positive look behind](src/positive-look-behind.c)
+* [negative look ahead](src/negative-look-ahead.c)
+* [negative look behind](src/negative-look-behind.c)
+* [possessive](src/possessive.c)
+* [lazy](src/lazy.c)

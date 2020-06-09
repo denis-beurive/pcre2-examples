@@ -74,7 +74,7 @@ int main() {
         pcre2_get_error_message(error_number, buffer, sizeof(buffer));
         printf("PCRE2 compilation failed at offset %d: %s\n", (int)error_offset,
                buffer);
-        return 1;
+        return EXIT_FAILURE;
     }
 
     // --------------------------------------------------------------------
