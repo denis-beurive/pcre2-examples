@@ -1,0 +1,5 @@
+.idea
+cmake_install.cmake
+CMakeFiles
+CMakeCache.txt
+pcre2.cbp
